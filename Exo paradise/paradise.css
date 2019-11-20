@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #363635;
+    background: #a68f58 url(img/fond_page.png) repeat-y center;
+}
+
+.conteneur {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: #363635;
+    height: 51px;
+    width: 100%;
+    position: fixed;
+    z-index: 666;
+}
+
+.closer {
+    height: 0;
+    clear: both;
+}
+
+header h1 {
+    margin: 0;
+    float: left;
+    width: 169px;
+    height: 51px;
+    background: url(img/logo_paradise.png)no-repeat center center;
+    text-indent: -9999px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header nav li {
+    float: left;
+}
+
+header nav a {
+    font-family: Montserrat, sans-serif;
+    color: #dcddcd;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    height: 51px;
+    line-height: 51px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+header nav a:hover {
+    background-color: #a68f58;
+}
+
+#homepage main {
+    padding-top: 350px;
+    background: url(img/plage.jpg) no-repeat 0 51px;
+    position: relative;
+}
+
+#homepage main h2 {
+    margin: 0;
+    font: 700 30px Montserrat, sans-serif;
+    color: #3697f5;
+    position: absolute;
+    left: 445px;
+    top: 240px;
+}
+
+.blocaccueil {
+    background-color: #363635;
+    width: 250px;
+    height: 228px;
+    float: left;
+    margin-left: 26px;
+}
+
+.blocaccueil h3 {
+    text-align: center;
+    font: 700 16px Montserrat, sans-serif;
+    margin-bottom: 16px;
+    margin-top: 20px;
+    color: #a68f58;
+}
+
+.blocaccueil p {
+    color: #dcddcd;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 28px;
+}
+
+.blocaccueil .bouton {
+    text-decoration: none;
+    color: #f15d58;
+    font: 14px Montserrat, sans-serif;
+    border: 1px solid #f15d58;
+    border-radius: 5px;
+    padding: 7px 30px;
+}
+
+.blocaccueil .bouton:hover {
+    color: #363635;
+    background-color: #f15d58;
+    position: relative;
+}
+
+footer {
+    line-height: 28px;
+    margin: 26px;
+}
+
+footer p {
+    margin: 0;
+}
+
+#mlegales {
+    float: left;
+}
+
+#rsn {
+    float: right;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+    color: #a68f58;
+    ;
+}
+
+#rsn a {
+    text-decoration: none;
+    display: inline-block;
+    width: 29px;
+    height: 29px;
+    text-indent: -9999px;
+    background-image: url(img/sprite_reseaux.png);
+    margin-left: 5px;
+}
+
+#twitter {
+    background-position: -29px 0;
+}
+
+#pinterest {
+    background-position: -58px 0;
+}
+
+#facebook:hover {
+    background-position: 0 -29px;
+}
+
+#twitter:hover {
+    background-position: -29px -29px;
+}
+
+#pinterest:hover {
+    background-position: -58px -29px;
+}
