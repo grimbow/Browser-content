@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Récupe.net</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="main.js"></script>
+
+</head>
+
+<body class="">
+
+    <header>
+        <nav id="board" class="d-flex flex-row justify-content-between">
+
+            <a id="logo-1" href="Recupe.net.html"><img src="img/logo_recupe.png" alt="logo-1"></a>
+
+            <ul class="d-flex flex-row align-items-center justify-content-center nav">
+
+                <li class=" nav-item ">
+                    <a class="nav-link" href="Recupe.net.html">ACCEUIL</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Recupe.net.html">DONS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Recupe.net.html">A PROPOS</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="Recupe.net.html">SOUTENIR</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#contact">CONTACT</a>
+                </li>
+                <li id="boutonco" class="nav-item ">
+                    <a class="nav-link " href="Recupe.net.html">CONNEXION</a>
+                </li>
+                <li id="boutoncree" class="nav-item">
+                    <a class="nav-link" href="Recupe.net.html">CRÉER</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- 
+    <div id="bgarrow">
+    </div> -->
+    <section class="container dons">
+        <div id="switch" class="d-flex flex-row justify-content-center">
+            <div id="jedonne" class="d-flex justify-content-center align-items-center">
+                <a href="">JE DONNE</a>
+            </div>
+
+            <div id="compteur">
+                <p><span id=count>0</span><br> dons collectés <br> à ce jour</p>
+            </div>
+
+            <div id="jerecupe" class="d-flex justify-content-center align-items-center">
+                <a href="">JE RÉCUPE</a>
+            </div>
+        </div>
+        <div id="givesheet">
+            <div id="gives" class="container d-flex flex-row">
+                <div class="col-md-6 col-sm-6">
+                    <h2>Compte</h2>
+                    <input id='rcheck' type="checkbox" name="Register" value="no"> Je ne souhaite pas m'identifier<br>
+                    <ul>
+                        <li>
+                            <!-- <label for="nom">Identifiant</label> -->
+                            <input type="text" id="nom" placeholder="Identifiant">
+                        </li>
+                        <li>
+                            <!-- <label for="Password">Mot de passe</label> -->
+                            <input type="password" id="password1" placeholder="Mot de passe">
+                        </li>
+                        <h2>Objet à donner</h2>
+                        <li>
+                            <input type="text" id="productname" placeholder="Nom du produit">
+                        </li>
+                        <li>
+                            <input list="categories" name="categories" placeholder="Choisir une catégorie">
+                            <datalist id="categories">
+                                  <option value="Sport">
+                                  <option value="Vetements">
+                                  <option value="Outils">
+                                  <option value="Jardin">
+                                  <option value="Cuisine">
+                                  <option value="Hygiène">
+                                  <option value="Alimentaire">
+                                  <option value="Meubles">
+                                  <option value="Musique">
+                                  <option value="Vehicule">
+                                
+                                </datalist>
+                            </form>
+                        </li>
+                        <li>
+                            <input type="number" id="quantite" placeholder="Quantité">
+                        </li>
+                        <li>
+                            <input type="number" id="departement" placeholder="Votre département">
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="preview" class="d-flex flex-column align-items-center  col-md-6 col-sm-6">
+                    <div class="imagepreview"></div>
+                    <input id)="" type="submit" value="DONNER">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="conso" class="container">
+        <h2>Consommation raisonnée et développement durable</h2>
+        <div>
+            <p>De nombreux vieux objets, cassés, usagés ou inutilisés finissent à la poubelle, malgré l'intérêt qu'ils pourraient représenter pour quelqu'un, faute de savoir à qui donner. Le site RECUPE est un site de dons, de récupération, de brocante gratuite
+                où chacun peut proposer et donner sur internet, plutôt que jeter ce dont il veut se débarrasser. Recupe.net n'est pas un site d'aide à la vente ou d'échange (de tels sites existent déjà), mais un site de don : il doit rester un lieu de
+                partage où chacun peut trouver des objets de récupération gratuits. Afin de conserver une liste de dons pertinente et cohérente avec la ligne du site RECUPE, toutes les annonces qui ne sont pas réellement des dons seront systématiquement
+                supprimées.
+            </p>
+        </div>
+    </section>
+
+    <section id="pied">
+        <footer class="container">
+
+            <div class="d-flex flex-row justify-content-between">
+                <div id="msg" class="d-flex flex-column">
+                    <h2 id="contact">CONTACT</h2>
+                    <hr>
+                    <form class="" action="" method="get" id="messageme">
+                        <ul>
+                            <li>
+                                <label class="clabel" for="firstname">Prénom :</label>
+                                <input class="cform" type="text" id="firstname" placeholder="Prénom">
+                            </li>
+                            <li>
+                                <label class="clabel" for="nom">Nom :</label>
+                                <input class="cform" type="text" id="nom" placeholder="Nom">
+                            </li>
+                            <li>
+                                <label class="clabel" for="tel">Téléphone :</label>
+                                <input class="cform" type="text" id="tel" placeholder="Téléphone">
+                            </li>
+                            <li>
+                                <label class="clabel" for="tel">Email :</label>
+                                <input class="cform" type="text" id="mail" placeholder="Email">
+                            </li>
+                            <li id="msgme" class="ctext">
+                                <textarea id="msgme" placeholder="Write here"></textarea>
+                            </li>
+
+                            <li id="sub1">
+                                <input class="cform" type="submit" value="Envoyer">
+                            </li>
+
+                        </ul>
+                    </form>
+                </div>
+
+                <div>
+                    <h2>PARTAGER</h2>
+
+                    <div>
+
+
+                        <ul class="d-flex flex-row align-items-center justify-content-center">
+                            <li id='facebook' class="socialicons">
+                                <a href="https://www.facebook.com/stillkid_nawan-112662546773989/?ref=bookmarks" target="_blank">
+
+                                </a>
+                            </li>
+                            <li id='twitter' class="socialicons">
+                                <a href="https://twitter.com/Twitter?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+
+                                </a>
+                            </li>
+                            <li id='instagram' class="socialicons">
+
+                                <a href="https://www.instagram.com/stillkid_nawan/?hl=fr" target="_blank">
+
+                                </a>
+
+                            </li>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+</body>
+
+</html>

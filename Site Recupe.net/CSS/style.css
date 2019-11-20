@@ -1,0 +1,370 @@
+        @font-face {
+            font-family: 'Dosis', sans-serif;
+            src: url("../typeface/Dosis/Dosis-VariableFont_wght.ttf") format("ttf");
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            background-repeat: no-repeat;
+            background-color: white;
+            background-image: linear-gradient(#96D1C7, #EE4C7C);
+        }
+        
+        #boutonco {
+            background-color: #333333;
+            border-radius: 20px;
+            color: white;
+        }
+        
+        #boutoncree {
+            background-color: #EE4C7C;
+            border-radius: 20px;
+            color: white;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        ul {
+            padding: 0px
+        }
+        
+        #home {
+            position: absolute;
+            height: 10%;
+            z-index: 500;
+        }
+        
+        .logo {
+            size: 80%;
+            margin-bottom: 10px;
+        }
+        
+        nav {
+            position: fixed;
+            z-index: 999;
+        }
+        
+        nav li {
+            height: 10%;
+        }
+        
+        #news {
+            color: black;
+        }
+        
+        #works {
+            color: black;
+        }
+        
+        #board {
+            width: 100%;
+            height: 7%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            font-size: 16px;
+            font-family: 'Dosis', sans-serif;
+        }
+        
+        #nav {
+            padding: 0.5%;
+        }
+        
+        ul li {
+            list-style: none;
+        }
+        
+        #logo-1 {
+            max-width: 10%;
+            padding: 0.5%;
+        }
+        
+        #bg {
+            background-color: white;
+            position: relative;
+            padding-top: 5%;
+            ;
+        }
+        
+        .dons {
+            color: white;
+        }
+        
+        .donner {
+            background-color: #E3E2DF;
+            height: 600px;
+            border-radius: 30px;
+        }
+        
+        #switch {
+            position: relative;
+            top: 75px;
+        }
+        
+        #jedonne {
+            position: relative;
+            right: -40px;
+            top: 100px;
+            height: 50px;
+            width: 180px;
+            font-family: 'Dosis', sans-serif;
+            color: #96D1C7;
+            background-color: white;
+            border: 5px solid;
+            border-color: #96D1C7;
+            border-radius: 30px;
+        }
+        
+        #jedonne:hover {
+            position: relative;
+            right: -40px;
+            top: 100px;
+            height: 50px;
+            width: 180px;
+            font-family: 'Dosis', sans-serif;
+            color: white;
+            background-color: #96D1C7;
+            border: 5px solid;
+            border-color: white;
+            border-radius: 30px;
+        }
+        
+        #jerecupe {
+            position: relative;
+            right: 40px;
+            top: 100px;
+            height: 50px;
+            width: 180px;
+            font-family: 'Dosis', sans-serif;
+            color: white;
+            border: 5px solid;
+            border-color: white;
+            background-color: #EE4C7C;
+            border-radius: 30px;
+        }
+        
+        #jerecupe:hover {
+            position: relative;
+            right: 40px;
+            top: 100px;
+            height: 50px;
+            width: 180px;
+            font-family: 'Dosis', sans-serif;
+            color: #EE4C7C;
+            border: 5px solid;
+            border-color: #EE4C7C;
+            background-color: white;
+            border-radius: 30px;
+        }
+        
+        #jerecupe:c {
+            position: relative;
+            right: 40px;
+            top: 100px;
+            height: 50px;
+            width: 180px;
+            font-family: 'Dosis', sans-serif;
+            color: white;
+            border: 5px solid;
+            border-color: white;
+            background-color: #EE4C7C;
+            border-radius: 30px;
+        }
+        
+        #compteur {
+            background-color: white;
+            color: black;
+            font-family: 'Dosis', sans-serif;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            word-wrap: break-word;
+            font-size: 1.2em;
+            width: 200px;
+            height: 200px;
+            border-radius: 200px;
+            border: 8px solid;
+            border-color: #E3E2DF;
+            z-index: 100;
+            text-align: center;
+        }
+        
+        #bgarrow {
+            z-index: -900;
+            background-image: url(../img/Arrowtest.png);
+            background-size: cover;
+            position: relative;
+            right: -800px;
+            top: 800px;
+            height: 1200px;
+            width: 1200px;
+            rotate: 90;
+            transform-origin: 50% 50%;
+            border-radius: 50px;
+            -ms-transform: rotate(32deg) infinite;
+            /* IE 9 */
+            -webkit-transform: rotate(320deg);
+            /* Chrome, Safari, Opera */
+            transform: rotate(320deg) infinite;
+            transition-duration: 1.2s;
+        }
+        
+        #count {
+            color: #EE4C7C
+        }
+        
+        h2 {
+            font-size: 40px;
+            font-family: 'Dosis', sans-serif;
+            color: white;
+        }
+        
+        h3 {
+            font-size: 30px;
+            font-family: 'Dosis', sans-serif;
+            color: white;
+        }
+        
+        #button {
+            align-items: center;
+            background-color: grey;
+            width: 20px;
+            height: 20px;
+        }
+        
+        #white li {
+            padding: 0px;
+        }
+        
+        #pied {
+            margin-top: 20px;
+            background-color: WHITE;
+            border-radius: 30px 30px 0 0;
+        }
+        
+        #pied h2 {
+            color: #EE4C7C;
+        }
+        
+        #rcheck {
+            border-radius: 30px;
+            background-color: #333333;
+        }
+        
+        #givesheet {
+            background-color: #E3E2DF;
+            border-radius: 30px;
+        }
+        
+        #givesheet input {
+            width: 200px;
+            padding: 5px;
+            background-color: #333333;
+            font-family: "Dosis", sans-serif;
+            color: white;
+            border-radius: 30px;
+            border: none;
+            margin: 2px;
+            text-align: center;
+        }
+        
+        #gives {
+            padding: 60px 20px 20px 20px;
+        }
+        
+        #preview {
+            background-color: white;
+            width: 50%;
+            height: 450px;
+            padding: 40px 20px 20px 20px;
+            border-radius: 30px;
+        }
+        
+        .imagepreview {
+            background-color: white;
+            border: dashed 3px;
+            border-color: #96D1C7;
+            width: 80%;
+            height: 100%;
+            background-image: url(../img/france_depart_bmp.bmp);
+            background-size: cover;
+        }
+        
+        .socialicons {
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            background-image: url(../img/social-networks-icon-15.png);
+            margin: 20px 20px;
+            border-radius: 80px;
+        }
+        
+        #facebook {
+            background-position: -64px -64px;
+        }
+        
+        #twitter {
+            background-position: -242px -64px;
+        }
+        
+        #instagram {
+            background-position: -424px -64px;
+        }
+        
+        #facebook:hover {
+            background-color: #EE4C7C;
+            background-position: -64px -241px;
+        }
+        
+        #twitter:hover {
+            background-color: #EE4C7C;
+            background-position: -242px -241px;
+        }
+        
+        #instagram:hover {
+            background-color: #EE4C7C;
+            background-position: -424px -241px;
+        }
+        
+        .cform {
+            border: none;
+            border-radius: 30px;
+            height: 25px;
+            background-color: #333333;
+            color: white;
+            text-align: center;
+        }
+        
+        .ctext {}
+        
+        .clabel {
+            width: 82px;
+        }
+        
+        #conso {
+            margin-top: 20px;
+            padding: 20px;
+            color: #333333;
+            background-color: #E3E2DF;
+            border-radius: 30px;
+        }
+        
+        #conso h2 {
+            color: #EE4C7C;
+            text-align: center;
+        }
+        /* ------------------------------------------------------------------     
+    RESPONSIVE 
+    ---------------------------------------------------------------------- */
+        
+        @media screen and (max-width: 300px) {}
+        
+        @media screen and (max-width: 990px) and (min-width: 768px) {}
