@@ -1,0 +1,407 @@
+    @font-face {
+        font-family: 'Bahnschrift Regular';
+        src: url("../font/Bahnschrift.woff") format("woff");
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    ul {
+        padding: 0px
+    }
+    
+    #home {
+        position: absolute;
+        height: 10%;
+        z-index: 999;
+    }
+    
+    .logo {
+        size: 80%;
+        margin-bottom: 10px;
+    }
+    
+    nav {
+        position: fixed;
+        right: 10px;
+        z-index: 999;
+        top: 10px;
+        width: 60px;
+    }
+    
+    nav li {
+        height: 10%;
+    }
+    
+    #navi {
+        padding: 20px;
+        color: white;
+        font-size: 10px;
+        font-family: "Bahnschrift Regular";
+        height: 20%;
+    }
+    
+    #news {
+        color: black;
+    }
+    
+    #works {
+        color: black;
+    }
+    
+    #shop {
+        color: black;
+        background-image: url(../img/bones.jpg);
+        background-size: cover;
+    }
+    
+    #board {
+        padding: 5px;
+        background-color: black;
+        border-radius: 50px;
+        box-shadow: 4px 2px 1px rgba(0, 0, 0, 0.205);
+    }
+    
+    ul li {
+        list-style: none;
+    }
+    
+    #navi ul img {
+        max-width: 35px
+    }
+    
+    #top {
+        padding-bottom: 40px
+    }
+    
+    #top img#logo-1 {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    #top img#bones {
+        transform: scaleX(-1);
+        max-width: 100%;
+        height: auto;
+    }
+    
+    #bg {
+        background-color: black;
+        position: relative;
+        padding: 0 20px 20px 20px;
+    }
+    
+    #bg2 {
+        background-color: white;
+        padding: 20px;
+        height: 740px;
+    }
+    
+    #bg3 {
+        background-color: rgba(255, 255, 255, 0.199);
+        padding-bottom: 80px;
+        transition: all 0.30s ease-in;
+    }
+    
+    #bg3.show {
+        background-color: rgba(255, 255, 255, 0.199);
+        height: 900px;
+        transform: scaleX(1) scaleY(1)
+    }
+    
+    #bg4 {
+        background-color: black(255, 255, 255, 0.199);
+    }
+    
+    h2 {
+        font-size: 40px;
+        font-family: "Bahnschrift Regular";
+        color: rgb(83, 83, 83);
+    }
+    
+    h3 {
+        font-size: 30px;
+        font-family: "Bahnschrift Regular";
+        color: white;
+    }
+    
+    #white {
+        background-color: white;
+    }
+    
+    #button {
+        align-items: center;
+        background-color: grey;
+        width: 20px;
+        height: 20px;
+    }
+    
+    #white li {
+        padding: 0px;
+    }
+    
+    .titlepad {
+        padding-top: 20px;
+    }
+    
+    div.carousel-item::before {
+        position: relative;
+    }
+    
+    div.carousel-item img {
+        height: 550px;
+        object-fit: cover;
+        object-position: 50% 0%;
+    }
+    
+    div.carousel-item div {
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+        width: 250px;
+    }
+    
+    div.carousel-item p {
+        background-color: rgba(255, 255, 255, 0.199);
+        border-radius: 20px;
+        max-width: 250px;
+        max-height: 162px;
+        height: 20%;
+        color: white;
+        padding: 10px;
+    }
+    
+    .carousel-description {
+        padding-bottom: 50px;
+        padding-right: 20px;
+    }
+    
+    @media screen and (max-width: 300px) {}
+    
+    body {
+        background: gray;
+    }
+    
+    #bg2 {
+        background-color: blue
+    }
+    
+    #bg2 {
+        background-color: rgb(153, 151, 122);
+    }
+    
+    @media screen and (max-width: 990px) and (min-width: 768px) {
+        body {
+            background: rgb(104, 81, 81);
+        }
+        #bg2 {
+            background-color: red
+        }
+    }
+    
+    .hide {
+        display: none;
+    }
+    
+    #video,
+    #web,
+    #design,
+    #illus,
+    #bonus {
+        background-color: black;
+        color: white;
+        width: 1200px;
+        height: 600px;
+        max-height: 600px;
+        overflow-y: hidden;
+        transform: scaleX(0) scaleY(0);
+        transform-origin: 50% 0%;
+        transition: all 0.15s ease-in;
+    }
+    
+    #design2 {
+        height: 600px;
+        padding-left: 40px;
+    }
+    
+    .showX {
+        transform: scaleX(1) scaleY(0.01) !important;
+    }
+    
+    .showY {
+        transform: scaleX(1) scaleY(1) !important;
+    }
+    
+    footer {
+        Height: 640px;
+    }
+    
+    #footerImg {
+        background-image: url(../IMG/motorhead.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 120%;
+        background-position-y: 30px;
+        Height: 550px;
+        width: 550px;
+    }
+    
+    footer h3 {
+        padding-bottom: 10px;
+    }
+    
+    .animax {
+        width: 100px;
+        border-radius: 50px;
+    }
+    
+    .animax:hover {
+        transform-origin: 50% 50%;
+        border-radius: 50px;
+        -ms-transform: rotate(32deg) infinite;
+        /* IE 9 */
+        -webkit-transform: rotate(320deg);
+        /* Chrome, Safari, Opera */
+        transform: rotate(320deg) infinite;
+        transition-duration: 1.2s;
+        background-color: rgb(255, 0, 0);
+    }
+    
+    .stepup {
+        margin-bottom: 15px;
+    }
+    
+    .showreel {
+        margin-bottom: 15px;
+    }
+    
+    #messageme input,
+    #newsletter input {
+        flex-direction: row;
+        border-radius: 20px;
+        border-style: none;
+        padding: 5px;
+        text-align: center;
+    }
+    
+    #messageme label,
+    #newsletter label,
+    #social {
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
+    .carousel-inner {
+        width: 900px;
+        height: 600px;
+    }
+    
+    .carousel-inner .showWorks {
+        width: 900px;
+        height: 500px;
+    }
+    
+    hr {
+        color: white;
+        size: 20px
+    }
+    
+    #clickbait {
+        color: white;
+        font-family: 'Bahnschrift Regular';
+        font-size: 26px;
+        padding: 20px;
+        text-decoration: underline;
+        padding-left: 500px;
+    }
+    
+    #dsgn {
+        width: 300px;
+        height: 300px;
+    }
+    
+    #desc {
+        background-color: black
+    }
+    
+    #desc img {
+        height: 500px;
+        width: 500px;
+    }
+    
+    #msg {
+        padding: 0 20 20 20px;
+    }
+    
+    #msg li {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #msgme {
+        text-align: center;
+        width: 320px;
+        border-radius: 20px;
+        height: 120px;
+        max-height: 160px;
+        min-height: 80px;
+        margin: 20px 5px;
+    }
+    
+    #sub1,
+    #sub2 {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+    }
+    
+    #substitute {
+        width: 600px;
+        height: 400px;
+        background-color: white;
+    }
+    
+    div li {
+        padding: 2px;
+    }
+    
+    #carouselExampleIndicators {
+        width: 900px;
+        height: 600px;
+        padding-top: 80px;
+    }
+    
+    #carousell,
+    #carousel3 {
+        width: 500px;
+        height: 500px;
+    }
+    
+    #contact {
+        padding-top: 20px;
+    }
+    
+    .work {
+        overflow: hidden;
+    }
+    
+    h1 {
+        font-size: 100px;
+        color: white;
+        margin-left: 10%;
+    }
+    
+    h4 {
+        font-size: 20px
+    }
+    
+    #vidplayer div {
+        padding: 10px;
+    }
