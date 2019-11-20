@@ -1,0 +1,196 @@
+    @font-face {
+        font-family: 'Bahnschrift Regular';
+        src: url("../font/Bahnschrift.woff") format("woff");
+    }
+    
+    body {
+        padding: 20px;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    #acc em {
+        color: white;
+    }
+    
+    #acc img {
+        width: 20%;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    
+    #mage {
+        width: 750px;
+    }
+    
+    img {
+        width: 160px;
+        height: auto;
+    }
+    
+    ul {
+        padding: 0px
+    }
+    
+    h1 {
+        font-size: 60px;
+        font-family: "Bahnschrift Regular";
+        color: white;
+        margin-bottom: 20px;
+    }
+    
+    h2 {
+        font-size: 40px;
+        font-family: "Bahnschrift Regular";
+        color: white;
+    }
+    
+    h3 {
+        font-size: 30px;
+        font-family: "Bahnschrift Regular";
+        color: white;
+    }
+    
+    p,
+    address,
+    td {
+        color: rgb(196, 196, 196);
+    }
+    
+    body {
+        background: rgb(19, 36, 50);
+    }
+    
+    nav {
+        position: fixed;
+        right: 10px;
+        z-index: 999;
+        top: 10px;
+        width: 60px;
+    }
+    
+    nav li {
+        list-style: none;
+        height: 10%;
+    }
+    
+    #navi {
+        padding: 20px;
+        color: white;
+        font-size: 10px;
+        font-family: "Bahnschrift Regular";
+        height: 20%;
+    }
+    
+    #board {
+        padding: 30px;
+        margin-top: 30px;
+        margin-right: 30px;
+        background-color: rgb(94, 94, 94);
+        border-radius: 50px;
+        width: 80px;
+    }
+    
+    #cursus {
+        background-color: white;
+    }
+    
+    h2 {
+        padding: 20px;
+    }
+    
+    #cursus h2 {
+        color: rgb(19, 36, 50);
+    }
+    
+    #cursus h3 {
+        color: rgb(19, 36, 50);
+    }
+    
+    #cursus p {
+        color: rgb(94, 94, 94);
+    }
+    
+    #cursus div {
+        padding: 30px;
+    }
+    
+    #exp div {
+        width: 350px;
+        padding: 30px;
+    }
+    
+    li {
+        list-style: none;
+        color: rgb(196, 196, 196);
+    }
+    
+    #contact {
+        padding-top: 20px;
+    }
+    
+    #msg {
+        padding: 0 20 20 20px;
+    }
+    
+    #bg {
+        background-color: black;
+        position: relative;
+        padding: 0 20px 20px 20px;
+    }
+    
+    #white {
+        background-color: white;
+    }
+    
+    #white img {
+        width: 100%;
+    }
+    
+    #cur div {
+        border: 3px;
+        border-color: rgb(19, 36, 50);
+    }
+    
+    #compo ul {
+        padding: 30px;
+    }
+    
+    #prog ul {
+        padding: 30px;
+    }
+    
+    #comp,
+    #comp h2 {
+        color: rgb(19, 36, 50);
+        background-color: white;
+    }
+    
+    #messageme input,
+    #newsletter input {
+        flex-direction: row;
+        border-radius: 20px;
+        border-style: none;
+        padding: 5px;
+        text-align: center;
+    }
+    
+    #msgme {
+        text-align: center;
+        width: 320px;
+        border-radius: 20px;
+        height: 120px;
+        max-height: 160px;
+        min-height: 80px;
+        margin: 10px 5px;
+    }
+    
+    #sub1,
+    #sub2 {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+    }
