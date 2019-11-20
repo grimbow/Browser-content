@@ -1,0 +1,202 @@
+@font-face {
+    font-family: "Rockwell";
+    src: url("../font/Rockwell.ttf") format("truetype");
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: "Rockwell", serif;
+}
+
+h1,
+section h2 {
+    font-family: "Rockwell", serif;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+h3 {
+    color: #4b4975ad;
+    font-family: "Rockwell", serif;
+    font-size: 20px;
+}
+
+#fond h3 {
+    color: #ea9191be;
+    font-family: "Rockwell", serif;
+    font-size: 40px;
+}
+
+#concept img {
+    height: 32px;
+    width: auto;
+    margin-right: 15px;
+}
+
+header {
+    background-image: linear-gradient(#4b4975ad, #ea9191be), url("../img/photo.jpeg");
+    background-size: cover;
+    min-height: 400px;
+}
+
+header::after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: white;
+    position: absolute;
+    transform: rotate(45deg);
+    left: calc(50% - 15px);
+    bottom: -15px;
+}
+
+#wide {
+    height: 300px
+}
+
+ul {
+    list-style: none;
+}
+
+#button {
+    background-color: white;
+    padding: 10px;
+    Margin: 20px;
+    border-radius: 50px;
+    color: black;
+}
+
+#bg {
+    background-image: url(../img/grain.png);
+    width: 85%;
+    min-height: 235px;
+    background-size: 55% auto;
+    background-repeat: no-repeat;
+    background-color: #E6b331;
+    background-position: left bottom;
+}
+
+header img {
+    width: 200px;
+}
+
+#gradient {
+    background: linear-gradient(#ea9191, #4b4975);
+}
+
+#blue #fond {
+    /* background-color: black; */
+    box-shadow: 5px 5px 5px 5px #0000000c;
+    border-radius: 50px;
+    padding: 40px;
+}
+
+#fond p {
+    font-family: "rockwell";
+    font-size: 20px;
+    color: #4b4975;
+}
+
+#pad {
+    padding: 20px 40px
+}
+
+#bg h2 {
+    font-size: 30pt;
+    color: #4b4975;
+    position: absolute;
+    padding: 25px 1px 0 84px;
+}
+
+#bot {
+    background: linear-gradient( #E6b331, #ea9191, #4b4975);
+    background-size: cover;
+    padding: 20px;
+}
+
+#bot h3 {
+    color: white;
+}
+
+#bot p {
+    color: white;
+    text-align: center;
+}
+
+#bot form {
+    width: 100%;
+}
+
+#bot input,
+#bot textarea {
+    background-color: rgba(255, 255, 255, 0.342);
+    border-radius: 50px;
+    border: 0;
+    width: 100%;
+    padding: 10px 25px;
+    margin-bottom: 20px
+}
+
+#bot textarea {
+    border-radius: 25px;
+    margin-bottom: 0px;
+}
+
+#bot input::placeholder,
+#bot textarea::placeholder {
+    color: white;
+}
+
+#bot input[type="submit"] {
+    width: auto;
+    margin: 0 auto;
+    display: block;
+    margin-top: -25px;
+    background-color: rgba(234, 145, 145, 1);
+    z-index: 2;
+    position: relative;
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 150%
+    }
+    body {
+        background: pink;
+    }
+    #fond {
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 400px;
+    }
+    #fond img {
+        width: 200px;
+    }
+    #table {
+        display: flex;
+        /* flex-wrap */
+    }
+    #pad img {
+        max-width: 20%;
+        max-height: 20%;
+    }
+}
+
+
+}
+@media screen and (max-width: 990px) and (min-width: 768px) {
+    body {
+        background: pink;
+    }
+    
+    #fond {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    #fond img {
+        width: 200px;
+    }
+}
